@@ -23,9 +23,9 @@ Contents:
      - **stabilising selection (fig 3cd)**: Contains the scripts used to perform the individual-based simulations under stabilising selection to produce Figures 3cd.  
        - **launch.py**: Launches the simulation and saves the data.  
        - **export data for mathematica.py**: Exports the data in a format compatible with the *evolutionary_analyses.nb* Mathematica notebook.  
-     - **phenotypic association (fig 4b)**: Contains the scripts used to perform the individual-based simulations for plotting the phenotypic association in Figure 4b.  
+     - **phenotypic association (fig 4b + fig S6)**: Contains the scripts used to perform the individual-based simulations for plotting the phenotypic association in Figure 4b and S6.  
        - **launch.py**: Launches the simulation and saves the data.  
-       - **export data for mathematica.py**: Exports the data in a format compatible with the *evolutionary_analyses.nb* Mathematica notebook.  
+       - **plot and export data for mathematica**: Generates Figure S6 and exports the data in a format compatible with the *evolutionary_analyses.nb* Mathematica notebook.  
      - **evolutionary branching (fig 4cde + fig S7)**: Contains the scripts used to perform the individual-based simulations for disruptive selection to produce Figures 4cde and S7.  
        - **launch.py**: Launches the simulation and saves the data.  
        - **plot and export data for mathematica.py**: Generates Figures 4cd and S7 and exports the data in a format compatible with the *evolutionary_analyses.nb* Mathematica notebook.
