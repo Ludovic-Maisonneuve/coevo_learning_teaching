@@ -1,7 +1,7 @@
 Programs for the Article:
 "The Coevolution of Learning Schedules and Teaching Enhances Cumulative Knowledge and Drives a Teacher-Innovator Syndrome"
 Authors: Ludovic Maisonneuve, Laurent Lehmann, Charles Mullon
-Published in Proceedings of the Royal Society B (DOI: 10.1098/rspb.2024.2470)
+Published in the Proceedings of the Royal Society B (DOI: 10.1098/rspb.2024.2470)
 
 Contents:
 
