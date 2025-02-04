@@ -10,11 +10,11 @@ def get_K(G, E):
     listSL = sorted([i.o + i.v for i in G] + [1])
 
     # Calculate the total knowledge produced by individual learning
-    if rho != 1:
+    if rho != 0:
         KIL = 0
         sumoverlap = 0
         for i in range(len(G)):
-            sumoverlap += (1 - rho) ** i
+            sumoverlap += rho ** i
             KIL += (listSL[i + 1] - listSL[i]) * alpha * sumoverlap
     else:
         SL = min(listSL)

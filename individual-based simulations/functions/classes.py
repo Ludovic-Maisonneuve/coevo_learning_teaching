@@ -49,11 +49,11 @@ class Individual:
 def ancestral_generation(o0, v0, tau0, E, eps, alpha, betao, betav0, betatau, rho, N):
     # Calculate initial values for K0 and k0 based on l0, v0 and tau0
     if o0 != 0 or v0 != 0:
-        K0 = alpha * (1 - o0 - v0) / (rho * eps)
+        K0 = alpha * (1 - o0 - v0) / (1 - rho) * eps
         k0 = ((1 - np.exp(-o0 * betao)) * K0 * (1 - eps) + (1 - v0 - o0) * alpha) / (
                 1 - (1 - eps) * np.exp(-o0 * betao) * (1 - np.exp(-v0 * (betav0 + betatau * tau0))))
     else:
-        K0 = alpha / rho
+        K0 = alpha / (1-rho)
         k0 = alpha
 
     # Generate a list of individuals with the specified parameters

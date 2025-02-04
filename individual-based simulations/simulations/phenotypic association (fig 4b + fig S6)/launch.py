@@ -13,7 +13,7 @@ etad = 2
 etae = 2
 cd = 0.1
 ce = 0.1
-rho = 0.75
+rho = 0.5
 N = int(10 ** 3)
 gamma = 10 ** (-4) / 2
 
